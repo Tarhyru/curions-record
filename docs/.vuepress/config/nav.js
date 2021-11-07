@@ -1,5 +1,8 @@
 module.exports = [
-  {text: '首页', link: '/'},
+  {
+    text: '首页', 
+    link: '/',  
+  },
   // {
   //   text: '语言学习',
   //   link: '/languages/',  //目录页，vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页

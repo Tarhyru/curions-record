@@ -13,7 +13,13 @@ module.exports = {
                 content: '笔记，记录，与思考'
             }
         ],
-        ['meta', { name: 'theme-color', content: '#11a8cd' }] // 移动浏览器主题颜色
+        ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
+        [
+            'script',
+            [{
+                src:'./js/append'
+            }]
+        ]
     ],
     markdown: {
         lineNumbers: true // 代码行号
