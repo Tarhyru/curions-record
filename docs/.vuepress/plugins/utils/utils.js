@@ -27,7 +27,7 @@ export default () => {
 
             async function getGuideText() {
                 let text = '事有必至，理由固然';
-                let listArr = await getJson('/json/guide_1.json');
+                let listArr = await getJson('./json/guide_1.json');
                 if (Array.isArray(listArr)) {
                     let getNum = (listArr.length * Math.random()) | 0;
                     text = listArr[getNum] || text;
