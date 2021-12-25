@@ -21,6 +21,9 @@ article: false
 
 title: 笔记
 ---
+蛤蟆先生去看心理医生
+原则：生活与工作
+应对世界秩序变化的原则
 
 TODO: 逐渐迁移整理，以前的笔记
 常用的杂记Tip，类放在oneNote上
@@ -53,3 +56,18 @@ TODO: 逐渐迁移整理，以前的笔记
 
 第二步：
     持续记录，记什么，怎么记，哪些有价值，以及精力，是思考的点
+
+
+
+```
+
+流程图，拖拽一类基于canvas，性能不错，适合做，组态类
+topology :<https://github.com/le5le-com/topology.js> 
+文档:<https://developer.le5le.com/tutorial/introduction.html>
+拖拽：<https://github.com/appsmithorg/appsmith>
+
+# 拉链表
+作用用较少的空间保存全量数据及数据变化，主要用于数据分析
+大概过程： 
+1、设置数据的起始有效时间和结束有效时间，当前生效的，结束时间是个大值
+2、新的数据进来，上一条，修改结束时间为当前时间，新的数据结束时间是个大值
