@@ -71,3 +71,7 @@ topology :<https://github.com/le5le-com/topology.js>
 大概过程： 
 1、设置数据的起始有效时间和结束有效时间，当前生效的，结束时间是个大值
 2、新的数据进来，上一条，修改结束时间为当前时间，新的数据结束时间是个大值
+
+
+tuku.kidview.cn
+anna89.to

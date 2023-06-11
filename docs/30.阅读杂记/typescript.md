@@ -1,7 +1,15 @@
 # 参考资料
-
 type-challenges:<https://github.com/type-challenges/type-challenges>.
 知乎专栏:<https://zhuanlan.zhihu.com/c_206498766>.
+
+# typescript 全局 type 声明：
+<https://stackoverflow.com/questions/42233987/how-to-configure-custom-global-interfaces-d-ts-files-for-typescript>
+概括：
+1、有类型声明的文件包含在 typeRoute 下，默认值 "typeRoots": ["./node_modules/@types/"]
+    （验证下是否需要 declare namespace ）
+2、include 包含 .d.ts 文件，且该文件没有任何导入导出（作为脚本使用，而不是模块）
+实际上，typescript 不鼓励全局类型声明.d.ts 文件也仅因作为 js 库与别的库交互的接口
+
 
 # type 与 interface 的关系与区别
 
@@ -64,4 +72,4 @@ interface test {
 3. type 可以申明 联合类型，如 type unionType = myType1 | myType2
 4. type 可以申明 元组类型，如 type yuanzu = [myType1, myType2]
 
-#
+
